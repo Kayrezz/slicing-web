@@ -652,3 +652,206 @@
                     justify-content: right;
                     padding: 0px 0px 30px;
                 }
+@media screen and (max-width:1024px) and (max-height:768px) {
+                        nav {
+                            justify-content: space-between;
+                            background-color: rgb(255, 255, 248);
+                            display: flex;
+                            height: 3.9rem;
+                        }
+                        nav .logo {
+                            margin-left: 6rem;
+                        }
+                        nav .navbar-nav a {
+                            text-decoration: none;
+                            font-family: "Work Sans", sans-serif;
+                            margin: 9px;
+                            padding: 1px;
+                            color: black;
+                            font-size: 0.7rem;
+                        }
+                        nav .navbar-nav a span {
+                            color: rgb(186, 80, 248);
+                        }
+                        .navbar {
+                            margin-right: 5rem;
+                            margin-top: 0.9rem;
+                        }
+                        .container1 {
+                            background-color: rgba(240, 242, 255, 255);
+                            width: 100%;
+                            height: 100%;
+                            padding-top: 4rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        .container1 h2 {
+                            font-family: "Work Sans", sans-serif;
+                            width: 25rem;
+                            height: 10rem;
+                            font-size: 40px;
+                            margin-bottom: 4rem;
+                        }
+                        .container1 .text {
+                            margin-left: 8rem;
+                            margin-bottom: 200px;
+                        }
+                        .container1 .text p {
+                            font-family: "Work Sans", sans-serif;
+                            width: 25rem;
+                            height: 2rem;
+                            font-size: 14px;
+                            position: relative;
+                            color: rgb(148, 144, 138);
+                        }
+                        .container1 .text .button1 a {
+                            background-color: rgb(58, 16, 228);
+                            text-decoration: none;
+                            font-size: 12px;
+                            margin-top: 4rem;
+                            display: flex;
+                            width: 10rem;
+                            color: rgb(255, 255, 255);
+                            font-family: "Work Sans", sans-serif;
+                            border-radius: 3%;
+                            padding: 0.5rem;
+                            margin-left: 3rem;
+                        }
+                        .container1 .text .button1 a img {
+                            margin-left: 60px;
+                        }
+                        .container1 .image1 img {
+                            display: flex;
+                            margin-right: 6rem;
+                            margin-bottom: 10rem;
+                            width: 25rem;
+                        }
+                        .container2 {
+                            background-color: rgb(250, 203, 59);
+                            height: 100%;
+                            padding: 6px;
+                            font-family: "Work Sans", sans-serif;
+                        }
+                        .container2 .awal {
+                            display: flex;
+                            font-size: 0.9rem;
+                            margin-top: 2rem;
+                            text-align: end;
+                            justify-content: space-around;
+                        }
+                        .container2 .isi {
+                            display: flex;
+                            justify-content: space-around;
+                            margin-bottom: 20px;
+                            font-size: 12px;
+                        }
+                        .container2 img {
+                            width: 23px;
+                        }
+                        .container3 {
+                            font-family: "Work Sans", sans-serif;
+                            margin-top: 3.6rem;
+                        }
+                        section .container3 {
+                            justify-content: space-between;
+                            display: flex;
+                            height: 3.4rem;
+                        }
+                        .logo {
+                            margin-left: 6rem;
+                            font-size: 14px;
+                        }
+                        section .content a {
+                            text-decoration: none;
+                            font-family: "Work Sans", sans-serif;
+                            margin: 15px;
+                            padding: 2px;
+                            color: black;
+                            font-size: 0.8rem;
+                        }
+                        section .logo span {
+                            color: rgb(186, 80, 248);
+                        }
+                        section .kepala .content {
+                            margin-right: 1.5rem;
+                            margin-top: 1rem;
+                        }
+                        section .content a:hover {
+                            background-color: #eee3e3;
+                            border-radius: 5%;
+                            transition: 1s;
+                            font-size: 20px;
+                        }
+                        .lesson {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 30px;
+                        }
+                        .lesson .kursus {
+                            display: flex;
+                            justify-content: space-between;
+                            float: left;
+                            width: 100%;
+                        }
+                        .lesson .kursus .text {
+                            font-size: 12px;
+                            color: blueviolet;
+                            font-family: "Work Sans", sans-serif;
+                            margin: 8px;
+                            margin-top: 20px;
+                        }
+                        .lesson .kursus p {
+                            font-size: 18px;
+                            font-family: "Work Sans", sans-serif;
+                        }
+                        .lesson .kursus .text b p {
+                            background-color: rgb(0, 255, 255);
+                        }
+                        .image-container {
+                            position: relative;
+                            width: 100%;
+                            /* Adjust as needed */
+                        }
+                        .background-image {
+                            height: auto;
+                            display: block;
+                        }
+                        .foreground-image {
+                            position: absolute;
+                            top: 17px;
+                            left: 19px;
+                            height: auto;
+                            z-index: 1;
+                        }
+                        .lesson .kursus .kursus1 {
+                            background-color: aliceblue;
+                            margin: 49px;
+                        }
+                        .lesson .kursus .kursus2 {
+                            background-color: aliceblue;
+                            margin: 49px;
+                        }
+                        .lesson .kursus .kursus3 {
+                            background-color: aliceblue;
+                            margin: 49px;
+                        }
+                        .lesson .kursus .kursus4 {
+                            background-color: aliceblue;
+                            margin: 49px;
+                        }
+                        .lesson .kursus .contentunder {
+                            display: flex;
+                            padding: 20px;
+                            justify-content: space-around;
+                        }
+                        .lesson .kursus .contentunder p {
+                            margin-right: 2rem;
+                            display: flex;
+                            font-family: "Open Sans", sans-serif;
+                            font-size: 14px;
+                        }
+                        section .lesson .kursus {
+                            height: 10%;
+                        }
+                    }
