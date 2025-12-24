@@ -22,7 +22,7 @@
                 
                 nav .logo {
                     margin-left: 19rem;
-                    margin-top: 1rem;
+                    margin-top: 0.5rem;
                 }
                 
                 nav .navbar-nav a {
@@ -1412,5 +1412,6 @@
                                     padding: 0px 0px 30px;
                                 }
                             }
+
 
 
